@@ -12,6 +12,7 @@ void	ft_retrieve_map(char **av, t_map *map)
 	ft_retrieve_textures(map_line, &i, map);
 	ft_retrieve_colors(map_line, &i, map);
 	ft_retrieve_map_2d(map_line, &i, map);
+	free(map_line);
 }
 
 void	ft_retrieve_textures(char *map_line, int *i, t_map *map)

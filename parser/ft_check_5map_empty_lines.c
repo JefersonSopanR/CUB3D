@@ -26,6 +26,7 @@ static int	ft_check_last_char(char *map, int *i, int star_position)
 			return (free_split(map_2d_array), 1);
 		}
 	}
+	free_split(map_2d_array);
 	return (0);
 }
 
