@@ -1,0 +1,16 @@
+Cosine and Sine in 2D Ray Casting:
+
+cos(ray->angle) gives the horizontal component of the ray's movement:
+Positive (> 0): Ray is moving to the right.
+Negative (< 0): Ray is moving to the left.
+  
+sin(ray->angle) gives the vertical component of the ray's movement:
+Positive (> 0): Ray is moving upward.
+Negative (< 0): Ray is moving downward.
+
+visualization of the tangent in video:
+https://www.youtube.com/watch?v=MHmX717Ien0
+
+Tangent values:
+https://www.varsitytutors.com/hotmath/hotmath_help/topics/tangent-function
+
