@@ -14,3 +14,8 @@ https://www.youtube.com/watch?v=MHmX717Ien0
 Tangent values:
 https://www.varsitytutors.com/hotmath/hotmath_help/topics/tangent-function
 
+
+sin(ray->angle) > 0 means the ray is pointing down (toward the south).
+sin(ray->angle) <= 0 means the ray is pointing up (toward the north).
+cos(ray->angle) > 0 means the ray is pointing right (toward the east).
+cos(ray->angle) <= 0 means the ray is pointing left (toward the west).
