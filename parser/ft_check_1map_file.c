@@ -8,7 +8,8 @@ void	ft_check_map_file(char **av)
 	type_error = 0;
 	map = NULL;
 	if (ft_strncmp(&av[1][ft_strlen(av[1]) - 4], ".cub", 4))
-		ft_exit("Incorrect file extension\n", NULL, 0);
+		ft_exit("Incorrect map file extension\n"
+		"[hint] The file name should end with .cub\n",NULL, 0);
 	map = ft_read_file(av[1]);
 	if (!map)
 		ft_exit("couldn't open map file\n", NULL, 0);
