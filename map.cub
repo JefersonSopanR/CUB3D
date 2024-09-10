@@ -1,16 +1,18 @@
-SO    textures/map2/SO.xpm
+SO    textures/J_AND_K_NY_POLICE-SO.xpm
 
-WE    textures/map2/WE.xpm
+WE    textures/montadas_en_caballo_juegos-WE.xpm
 
-NO    textures/map2/NO.xpm
+NO    textures/miguel_concentrado-NO.xpm
 
-EA    textures/map2/EA.xpm
-
-
-F  140, 139,      139
+EA   textures/irts_day_of_the_year_of_college-EA.xpm
 
 
-C  154,   209,          230
+F  140, 139, 139
+
+
+C 154, 209,   230
+
+
 
 
 11111111111111111          11111111111111111

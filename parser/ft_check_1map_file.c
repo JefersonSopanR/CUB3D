@@ -11,7 +11,7 @@ void	ft_check_map_file(char **av)
 		ft_exit("Incorrect file extension\n", NULL, 0);
 	map = ft_read_file(av[1]);
 	if (!map)
-		ft_exit("couldn't open map file", NULL, 0);
+		ft_exit("couldn't open map file\n", NULL, 0);
 	type_error = ft_check_elements(map);
 	if (type_error)
 		ft_exit("Wrong texture\n", map, type_error);
@@ -31,7 +31,7 @@ char	*ft_read_file(char *file)
 		return (NULL);
 	fd = open(file, O_RDONLY);
 	if (fd == -1)
-		return (NULL);
+		return (free(map_line), NULL);
 	while (1)
 	{
 		line = get_next_line(fd);
