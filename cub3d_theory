@@ -19,3 +19,9 @@ sin(ray->angle) > 0 means the ray is pointing down (toward the south).
 sin(ray->angle) <= 0 means the ray is pointing up (toward the north).
 cos(ray->angle) > 0 means the ray is pointing right (toward the east).
 cos(ray->angle) <= 0 means the ray is pointing left (toward the west).
+
+cosine values
+https://www.universoformulas.com/matematicas/trigonometria/coseno/
+
+sine values
+https://www.universoformulas.com/matematicas/trigonometria/seno/
