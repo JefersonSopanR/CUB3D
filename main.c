@@ -6,7 +6,7 @@ void	ft_print_map(t_map *map)
 
 	i = 0;
 	printf("NO -> (%s)\n", map->no_texture);
-	printf("SO -> (%s)\n", map->no_texture);
+	printf("SO -> (%s)\n", map->so_texture);
 	printf("WE -> (%s)\n", map->we_texture);
 	printf("EA -> (%s)\n", map->ea_texture);
 	printf("F -> (%d, %d, %d)\n", map->floor_color.r, map->floor_color.g, map->floor_color.b);

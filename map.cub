@@ -1,24 +1,16 @@
-      SO                textures/map2/SO.xpm
+SO    textures/map2/SO.xpm
+
+WE    textures/map2/WE.xpm
+
+NO    textures/map2/NO.xpm
+
+EA    textures/map2/EA.xpm
 
 
-       WE textures/map2/WE.xpm
+F  140, 139,      139
 
 
-        NO textures/map2/NO.xpm
-
-                                                EA   textures/map2/EA.xpm
-
-
-
-
-F       140, 139,      139
-
-
-C                       154,   209,          230
-
-
-
-
+C  154,   209,          230
 
 
 11111111111111111          11111111111111111
@@ -29,4 +21,3 @@ C                       154,   209,          230
          1000000000000000000000001
          1000000000000000000010001
          1111111111111111111111111
-      

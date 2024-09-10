@@ -9,7 +9,7 @@ void	ft_retrieve_ceiling_color(char *map_line, int *i, t_map *map)
 	ft_skip_comma(map_line, i);
 	map->ceiling_color.g = ft_get_color(map_line, i);
 	ft_skip_comma(map_line, i);
-	map->ceiling_color.g = ft_get_color(map_line, i);
+	map->ceiling_color.b = ft_get_color(map_line, i);
 }
 
 void	ft_retrieve_floor_color(char *map_line, int *i, t_map *map)
@@ -21,7 +21,7 @@ void	ft_retrieve_floor_color(char *map_line, int *i, t_map *map)
 	ft_skip_comma(map_line, i);
 	map->floor_color.g = ft_get_color(map_line, i);
 	ft_skip_comma(map_line, i);
-	map->floor_color.g = ft_get_color(map_line, i);
+	map->floor_color.b = ft_get_color(map_line, i);
 }
 
 int	ft_get_color(char *map_line, int *i)

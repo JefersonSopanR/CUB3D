@@ -9,6 +9,7 @@ void	ft_retrieve_map(char **av, t_map *map)
 
 	i = 0;
 	map_line = ft_read_file(av[1]);
+	printf("map_line: %s\n", map_line);
 	ft_retrieve_textures(map_line, &i, map);
 	ft_retrieve_colors(map_line, &i, map);
 	ft_retrieve_map_2d(map_line, &i, map);
@@ -21,13 +22,13 @@ void	ft_retrieve_textures(char *map_line, int *i, t_map *map)
 	{
 		if (map_line[*i] == '\n' || ft_isspace(map_line[*i]))
 			(*i)++;
-		else if (!ft_strncmp(&map_line[*i], "NO", 2))
+		else if (!ft_strncmp(&map_line[*i], "NO ", 3 ))
 			ft_retrieve_no_texture(map_line, i, map);
-		else if (!ft_strncmp(&map_line[*i], "SO", 2))
+		else if (!ft_strncmp(&map_line[*i], "SO ", 3 ))
 			ft_retrieve_so_texture(map_line, i, map);
-		else if (!ft_strncmp(&map_line[*i], "WE", 2))
+		else if (!ft_strncmp(&map_line[*i], "WE ", 3 ))
 			ft_retrieve_we_texture(map_line, i, map);
-		else if (!ft_strncmp(&map_line[*i], "EA", 2))
+		else if (!ft_strncmp(&map_line[*i], "EA ", 3 ))
 			ft_retrieve_ea_texture(map_line, i, map);
 		else
 			break ;
