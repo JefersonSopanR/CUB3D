@@ -34,3 +34,5 @@ https://www.iloveimg.com/crop-image
 
 Convert images PNG into XPM
 https://convertio.co/es/png-xpm/        OR    https://www.vertopal.com/en/convert/png-to-xpm
+
+pip3 install cheat
